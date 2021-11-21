@@ -1,0 +1,238 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div,p,input,button, form,span {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	width: 0 auto;
+	margin: 0 auto;
+}
+
+
+.header{
+	width: auto;
+	height: 780px;
+	margin: 0 auto;
+	background-image: url(../img/sam.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	}
+.line{
+	width: auto;
+	height: 60px;
+	background: rgba(255, 255, 255, .7);
+
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#btn_reg{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0px;
+	padding-left: 50px;
+	padding-right: 0px;
+	font-weight:100;
+
+}
+.title{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-weight:100;
+font-size: 30px;
+letter-spacing: 3px;
+color: rgba(0, 0, 0, 0.8);
+
+mix-blend-mode: color-burn;
+text-shadow: -10px 4px 13px rgba(0, 0, 0, 0.31);;
+}
+.buttons{
+	padding-top: 500px;
+	text-align: center;
+	
+}
+.btn{
+	margin-left: auto;
+    margin-right: auto;
+	background: rgba(255, 255, 255, .7);
+	margin-bottom: 20px;
+	border-radius: 40px; 
+	font-size: 50px;
+	display: block;
+	width: 300px;
+	height: 50px;
+	padding: 10px 0px 15px 0px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	font-weight: 200;
+	margin-top: 30px;
+	transition: all 0.5s ease;
+	text-shadow: -5px 4px 11px rgba(0, 0, 0, 0.31);
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+.btn:hover{
+	background: rgba(255, 255, 255, 1); 	
+}
+
+.btn1 {
+	margin-left: auto;
+    margin-right: 30px; 
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.5s ease;
+	text-shadow: -5px 4px 11px rgba(0, 0, 0, 0.31);
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 200;
+}
+
+.title2{
+	font-family: Montserrat;
+    font-style: italic;
+	padding: 20px 0px 20px 150px;
+	padding-bottom: 0px;
+	background-image: url(../img/vac.png);
+	font-size: 30px;
+	letter-spacing: 3px;
+
+}
+
+.abs{
+	padding-left: 280px;
+	width: 1200px;
+	height: 500px;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 40px;
+
+}
+
+.announcement{
+	background: rgba(233, 233, 233, 0,7);
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(48, 203, 232, 0.25);
+	font-size: 15px;
+	width: 400px;
+	height: 200px;
+	margin: 40px 0;
+	padding: 30px 10px;
+}
+
+.btn2 {
+	margin-left: auto;
+    margin-right: auto;
+	background-image: url(../img/12.png);
+	border-radius: 50px; 
+	display: block;
+	width: 320px;
+	height: 30px;
+	padding: 10px 0px 15px 0px;
+	text-align: center;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.7);;
+	transition: all 0.5s ease;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+	letter-spacing: 2px;
+}
+
+.footer{
+	padding: 20px 0;
+	margin: 100px 0px 0px 0px;
+	background: #4D4D4D;
+	width: auto;
+	height: 50px;
+
+}
+
+.background{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	color: #FFF;
+}
+
+/* Добавление товара*/
+.title_rg{
+	padding: 30px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: -10px 4px 13px rgba(0, 0, 0, 0.25);
+	
+}
+.header-ct{
+	background-image: url(../img/vac.png);
+	background: linear-gradient(180deg, rgba(177, 177, 177, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+	background-repeat: no-repeat;
+}
+.title3{
+	margin-top: 2px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: -10px 4px 13px rgba(0, 0, 0, 0.25);
+	text-align: center;
+
+}
+.form{
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 800px;
+	height: auto;
+}
+.input{
+	margin-left: 50px;
+	padding-left: 20px;
+    width: 750px;
+	height: 60px;
+	margin-top: 10px;
+	font-size: 18px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: none;
+	}
+#desc_t{
+	height: 250px;
+	text-align: left;
+}
+#btn_t{
+	margin: 50px 250px;
+	background: #FFF;
+	box-shadow: 10px 3px 10px rgba(0,0,0,0.3);
+	border: none;
+}
